@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f5f7;
+}
+
+.navbar {
+  height: 72px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  top: 0;
+  position: fixed;
+}
+
+.navCont {
+  display: flex;
+  gap: 796px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBut {
+  height: 40px;
+  width: 258px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navBut a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navLogo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #6070ff;
+}
+
+.navButton {
+  border: none;
+  background: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.header {
+  height: 820px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  background-image: url('images/HeaderBg.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-bottom-left-radius: 150px;
+}
+
+.headerContent {
+  width: 920px;
+  height: 268px;
+}
+
+.headerH1,
+.aboutH1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  padding: 0;
+  margin: 0;
+}
+
+.headerH1content {
+  color: #091e42;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 10px;
+}
+
+.headerH2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.headerBody {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 32px;
+}
+
+.headerLink,
+.infoLink {
+  color: #7f8cff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.socials {
+  display: flex;
+  width: 170px;
+  height: 20px;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .navCont {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .navBut {
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .header {
+    height: auto;
+    padding: 20px;
+    background-size: cover;
+  }
+
+  .headerContent {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 300px;
+  }
+
+  .headerH1,
+  .aboutH1 {
+    width: 100%;
+  }
+
+  .headerH1content {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .headerH2 {
+    font-size: 32px;
+  }
+
+  .headerBody {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .socials {
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+  }
+}
