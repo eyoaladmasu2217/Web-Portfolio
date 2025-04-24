@@ -120,3 +120,60 @@ body {
   justify-content: space-between;
   margin-top: 15px;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .navCont {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .navBut {
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .header {
+    height: auto;
+    padding: 20px;
+    background-size: cover;
+  }
+
+  .headerContent {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 300px;
+  }
+
+  .headerH1,
+  .aboutH1 {
+    width: 100%;
+  }
+
+  .headerH1content {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .headerH2 {
+    font-size: 32px;
+  }
+
+  .headerBody {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .socials {
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+  }
+}
